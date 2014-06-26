@@ -15,8 +15,47 @@
   <body>
 
   <section class="main">
-    <aside><h1>This is the aside</h1></aside>
-    <article>This is the article</article>
+    <header class="col-12">
+    <h1 class="header">Old Fashioned</h1>
+    <h2 class="neutraface centered">A standalone Bourbon/Neat/Bitters project in Compass</h2>
+    </header>
+    <aside class="aside-col-3">
+      <h1 class=" tondu title centered">Here's Some Pictures</h1>
+      <h4 class="neutraface centered">They don't have anything to do with anything.</h4>
+      <img class="img"src="images/tacocat.jpg" alt="tacocat" />
+      <img class="img"src="images/pizzacat.gif" alt="pizzacat" />
+    </aside>
+
+    <article class="col-9">
+      <div class="how-to-article">
+        <h1 class="tondu col-title centered">How do I use this magical creature?</h1>
+        <p>Getting started with this project is easy.  The basic instructions for setup are listed in the readme file on the <a href = "https://github.com/ninjaofawesome/old-fashioned" target="_blank">github repo</a>.</p>
+
+        <h3 class="tondu col-header centered">Perfect.  I have done that.  Now what?</h3>
+        <p>Wrap your head around widget based CSS and HTML5 tags! You'll be using them frequently!</p>
+
+        <h3 class="tondu col-header centered">OK cool.  What about the HTML?</h3>
+        <p>The header is in a header tag.Article tags are for the most important items on a page.  Asides are for the second most important sections.
+        The footer is in a footer tag.  Not rocket science.  Add to it as you wish.</p>
+
+        <h3 class="tondu col-header centered">
+        Gotcha.  Now where do I put my own styling stuff?</h3>
+        <p>For this project, I have included three files to get you started on styling your own projects.  You can find them here:</p>
+          <ul>
+            <li>Widgets: sass/neat/styles.scss</li>
+            <li>Bourbon Mixins: sass/bourbon/mymixins.scss</li>
+            <li>Base Styling: sass/base/mystyles.scss</li>
+          </ul>
+      </div>
+      <h3 class="tondu col-header centered">
+      Could this stand to be refactored?</h3>
+      <p>Probably.</p>
+      <footer class="col-12">
+        <h4 class="footer">Made by <a href="http://hereshannahs.info/" target="_blank">This Gal</a>.  She loves getting <a href="mailto:hey@hereshannahs.info?subject=Hello!">email</a>, why don't you drop her a line?</h4>
+      </footer>
+    </article>
+
+
   </section>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

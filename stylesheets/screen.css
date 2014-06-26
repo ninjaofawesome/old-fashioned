@@ -254,6 +254,28 @@ input[type="submit"] {
   vertical-align: middle;
   white-space: nowrap; }
 
+@font-face {
+  font-family: 'tondu beta';
+  src: url("../fonts/tondu_beta/tondu_beta.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/tondu_beta/tondu_beta.eot?#iefix") format("embedded-opentype"), url("../fonts/tondu_beta/tondu_beta.woff") format("woff"), url("../fonts/tondu_beta/tondu_beta.ttf") format("truetype"), url("../fonts/tondu_beta/tondu_beta.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'neutraface';
+  src: url("../fonts/neutraface/Neutraface2Display-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/neutraface/Neutraface2Display-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/neutraface/Neutraface2Display-Light.woff") format("woff"), url("../fonts/neutraface/Neutraface2Display-Light.ttf") format("truetype"), url("../fonts/neutraface/Neutraface2Display-Light.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+.tondu {
+  font-family: 'tondu beta', helvetica, arial, sans-serif; }
+
+.neutraface {
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+  font-weight: 700; }
+
+.centered {
+  text-align: center; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -268,20 +290,90 @@ section {
     display: table;
     clear: both; }
 
-.main aside {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  .main aside:last-child {
-    margin-right: 0; }
-.main article {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  .main article:last-child {
-    margin-right: 0; }
+.main {
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+  min-height: 900px; }
+  .main p {
+    color: #999999;
+    font-size: 1.5em;
+    font-weight: 700; }
+  .main header {
+    margin: 5px 0;
+    color: #999999; }
+    .main header .header {
+      color: #333333;
+      font-family: 'tondu beta', sans-serif;
+      font-weight: 900;
+      text-align: center;
+      font-size: 5em; }
+    .main header .col-12 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .main header .col-12:last-child {
+        margin-right: 0; }
+  .main footer {
+    margin: 5px 0;
+    padding: 35px 0;
+    background-color: #477dca; }
+    .main footer .footer {
+      color: #333333;
+      font-family: 'neutraface', sans-serif;
+      font-weight: 900;
+      text-align: center; }
+    .main footer a {
+      color: #999999; }
+      .main footer a:hover {
+        color: #333333; }
+    .main footer .col-12 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .main footer .col-12:last-child {
+        margin-right: 0; }
+  .main aside {
+    background-color: #dddddd;
+    min-height: 850px; }
+    .main aside .title {
+      color: #477dca;
+      font-weight: 900; }
+  .main .aside-col-3 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .main .aside-col-3:last-child {
+      margin-right: 0; }
+  .main article {
+    font-weight: 400;
+    color: #999999; }
+  .main .how-to-article {
+    min-height: 650px; }
+  .main .col-title {
+    color: #477dca;
+    font-weight: 900;
+    font-size: 3em; }
+  .main .col-header {
+    color: #477dca;
+    font-weight: 900; }
+  .main .img {
+    margin: 5px 25px; }
+  .main ul {
+    font-weight: 900;
+    font-size: 18px;
+    list-style-type: disc;
+    position: absolute;
+    margin: 0 1.5%; }
+  .main .col-9 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    font-weight: 700; }
+    .main .col-9:last-child {
+      margin-right: 0; }
 
 section {
   max-width: 68em;
@@ -292,17 +384,87 @@ section {
     display: table;
     clear: both; }
 
-.main aside {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  .main aside:last-child {
-    margin-right: 0; }
-.main article {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  .main article:last-child {
-    margin-right: 0; }
+.main {
+  font-family: 'neutraface', helvetica, arial, sans-serif;
+  min-height: 900px; }
+  .main p {
+    color: #999999;
+    font-size: 1.5em;
+    font-weight: 700; }
+  .main header {
+    margin: 5px 0;
+    color: #999999; }
+    .main header .header {
+      color: #333333;
+      font-family: 'tondu beta', sans-serif;
+      font-weight: 900;
+      text-align: center;
+      font-size: 5em; }
+    .main header .col-12 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .main header .col-12:last-child {
+        margin-right: 0; }
+  .main footer {
+    margin: 5px 0;
+    padding: 35px 0;
+    background-color: #477dca; }
+    .main footer .footer {
+      color: #333333;
+      font-family: 'neutraface', sans-serif;
+      font-weight: 900;
+      text-align: center; }
+    .main footer a {
+      color: #999999; }
+      .main footer a:hover {
+        color: #333333; }
+    .main footer .col-12 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .main footer .col-12:last-child {
+        margin-right: 0; }
+  .main aside {
+    background-color: #dddddd;
+    min-height: 850px; }
+    .main aside .title {
+      color: #477dca;
+      font-weight: 900; }
+  .main .aside-col-3 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .main .aside-col-3:last-child {
+      margin-right: 0; }
+  .main article {
+    font-weight: 400;
+    color: #999999; }
+  .main .how-to-article {
+    min-height: 650px; }
+  .main .col-title {
+    color: #477dca;
+    font-weight: 900;
+    font-size: 3em; }
+  .main .col-header {
+    color: #477dca;
+    font-weight: 900; }
+  .main .img {
+    margin: 5px 25px; }
+  .main ul {
+    font-weight: 900;
+    font-size: 18px;
+    list-style-type: disc;
+    position: absolute;
+    margin: 0 1.5%; }
+  .main .col-9 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    font-weight: 700; }
+    .main .col-9:last-child {
+      margin-right: 0; }

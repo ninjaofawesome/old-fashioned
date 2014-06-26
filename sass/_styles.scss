@@ -1,8 +1,105 @@
 section {
   @include outer-container;
+
 }
 
 .main{
-    aside { @include span-columns(6);}
-  article { @include span-columns(6); }
+    font-family: 'neutraface', helvetica, arial, sans-serif;
+    min-height: 900px;
+    p {
+      color: $medium-gray;
+      font-size: 1.5em;
+      font-weight: 700;
+    }
+
+    header {
+      margin: 5px 0;
+      color: $medium-gray;
+
+      .header {
+        color: $dark-gray;
+        font-family: 'tondu beta', sans-serif;
+        font-weight: 900;
+        text-align: center;
+        font-size: 5em;
+      }
+      .col-12 {
+        @include span-columns(12);
+
+      }
+    }
+
+    footer {
+      margin: 5px 0;
+      padding: 35px 0;
+      background-color: $blue;
+      .footer {
+        color: $dark-gray;
+        font-family: 'neutraface', sans-serif;
+        font-weight: 900;
+        text-align: center;
+      }
+
+      a {
+        color: $medium-gray;
+          &:hover {
+            color: $dark-gray;
+          }
+      }
+
+
+      .col-12 {
+        @include span-columns(12);
+
+      }
+
+    }
+
+  aside {
+    background-color: $light-gray;
+    min-height: 850px;
+      .title {
+        color: $blue;
+        font-weight: 900;
+      }
+    }
+    .aside-col-3 {@include span-columns(3);
+    }
+
+  article {
+    font-weight: 400;
+    color: $medium-gray;
+  }
+    .how-to-article {
+      min-height: 650px;
+    }
+
+  .col-title {
+    color: $blue;
+    font-weight: 900;
+    font-size: 3em;
+  }
+  .col-header {
+    color: $blue;
+    font-weight: 900;
+  }
+
+  .img {
+    margin: 5px 25px;
+  }
+
+  ul {
+    font-weight: 900;
+    font-size: 18px;
+    list-style-type: disc;
+    position: absolute;
+    margin: 0 1.5%;
+  }
+
+  .col-9 {
+    @include span-columns(9);
+    font-weight: 700;
+  }
+
+
   }
