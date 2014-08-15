@@ -82,6 +82,9 @@ section {
   .col-header {
     color: $blue;
     font-weight: 900;
+    &.last {
+      margin-top: 10px;
+    }
   }
 
   .img {

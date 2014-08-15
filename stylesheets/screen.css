@@ -358,6 +358,8 @@ section {
   .main .col-header {
     color: #477dca;
     font-weight: 900; }
+    .main .col-header.last {
+      margin-top: 10px; }
   .main .img {
     margin: 5px 25px; }
   .main ul {
@@ -452,6 +454,8 @@ section {
   .main .col-header {
     color: #477dca;
     font-weight: 900; }
+    .main .col-header.last {
+      margin-top: 10px; }
   .main .img {
     margin: 5px 25px; }
   .main ul {
